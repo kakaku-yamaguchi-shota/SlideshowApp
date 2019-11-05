@@ -12,6 +12,7 @@
 		3EFB188423713D4300CA1FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB188223713D4300CA1FFF /* Main.storyboard */; };
 		3EFB188623713D4500CA1FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB188523713D4500CA1FFF /* Assets.xcassets */; };
 		3EFB188923713D4500CA1FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFB188723713D4500CA1FFF /* LaunchScreen.storyboard */; };
+		3EFB1891237154DB00CA1FFF /* ExpandImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB1890237154DB00CA1FFF /* ExpandImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3EFB188523713D4500CA1FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EFB188823713D4500CA1FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EFB188A23713D4500CA1FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFB1890237154DB00CA1FFF /* ExpandImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3EFB188523713D4500CA1FFF /* Assets.xcassets */,
 				3EFB188723713D4500CA1FFF /* LaunchScreen.storyboard */,
 				3EFB188A23713D4500CA1FFF /* Info.plist */,
+				3EFB1890237154DB00CA1FFF /* ExpandImageViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFB1891237154DB00CA1FFF /* ExpandImageViewController.swift in Sources */,
 				3EFB188123713D4300CA1FFF /* ViewController.swift in Sources */,
 				3EFB187F23713D4300CA1FFF /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2649K2YR7F;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2649K2YR7F;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

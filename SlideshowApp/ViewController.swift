@@ -66,7 +66,7 @@ class ViewController: UIViewController {
             // 再生開始時 戻る、進むボタンdisabled
             back.isEnabled = false
             go.isEnabled = false
-            playAndStop.setTitle("⏸", for: .normal)
+            playAndStop.setTitle("PAUSE", for: .normal)
             // 再生ボタンを押すとスライドショー始動
             // 2秒毎にスライド
             self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(slideImage(_:)), userInfo: nil, repeats: true)
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
             // 停止時 戻る、進むボタンenabled
             back.isEnabled = true
             go.isEnabled = true
-            playAndStop.setTitle("▶️", for: .normal)
+            playAndStop.setTitle("PLAY", for: .normal)
         }
     }
 

@@ -88,6 +88,7 @@ class ViewController: UIViewController {
 
     // セグエ実行前処理
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (timer != nil) { playAndStopButton() }
         let expandImageController: ExpandImageViewController = segue.destination as! ExpandImageViewController
         expandImageController.image = imageView.image
     }
